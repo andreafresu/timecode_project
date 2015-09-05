@@ -40,10 +40,10 @@
 					<td><h3 class="w3-light-grey">f</h3></td> 
 				</tr>
 				<tr>
-				 <td><input class="w3-card-2" type="number" id="h1"  min="0" max="24" step="1" value=0 onchange="add();"></td>
-				 <td><input class="w3-card-2" type="number" id="m1"  min="0" max="60" step="1" value=0 onchange="add();"></td>
-				 <td><input class="w3-card-2" type="number" id="s1"  min="0" max="60" step="1" value=0 onchange="add();"></td>
-				 <td><input class="w3-card-2" type="number" id="f1"  min="0" max="25" step="1" value=0 onchange="add();"></td>
+				 <td><input class="w3-card-2" type="number" id="h1"  min="0" max="24" step="1" value=0 onchange="add();" onclick="this.select();"></td>
+				 <td><input class="w3-card-2" type="number" id="m1"  min="0" max="60" step="1" value=0 onchange="add();" onclick="this.select();"></td>
+				 <td><input class="w3-card-2" type="number" id="s1"  min="0" max="60" step="1" value=0 onchange="add();" onclick="this.select();"></td>
+				 <td><input class="w3-card-2" type="number" id="f1"  min="0" max="25" step="1" value=0 onchange="add();" onclick="this.select();"></td>
 				 </tr>
 			<table>
 	</div>
@@ -51,14 +51,14 @@
 	<div class="time_data">
 				<table>
 				<tr>
-				 <td><input class="w3-card-2" type="number" id="h2"  min="0" max="24" step="1"/ value=0 onchange="add();"></td>
-				 <td><input class="w3-card-2" type="number" id="m2"  min="0" max="60" step="1" value=0 onchange="add();"></td>
-				 <td><input class="w3-card-2" type="number" id="s2"  min="0" max="60" step="1" value=0 onchange="add();"></td>
-				 <td><input class="w3-card-2" type="number" id="f2"  min="0" max="25" step="1" value=0 onchange="add();"></td>
+				 <td><input class="w3-card-2" type="number" id="h2"  min="0" max="24" step="1"/ value=0 onchange="add();"onclick="this.select();"></td>
+				 <td><input class="w3-card-2" type="number" id="m2"  min="0" max="60" step="1" value=0 onchange="add();" onclick="this.select();"></td>
+				 <td><input class="w3-card-2" type="number" id="s2"  min="0" max="60" step="1" value=0 onchange="add();" onclick="this.select();"></td>
+				 <td><input class="w3-card-2" type="number" id="f2"  min="0" max="25" step="1" value=0 onchange="add();" onclick="this.select();"></td>
 				 </tr>
 			<table>
 	</div>
-	<label id="result" class="w3-card-4 w3-green"> 0:0:0:0</label>
+	<label id="result" class="w3-card-4 w3-green" onclick="this.select();"> 0:0:0:0</label>
 	<button class="w3-btn w3-red" onclick="clearData();"> Clear</button>
 
 <div>
