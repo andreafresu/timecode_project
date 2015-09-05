@@ -1,0 +1,63 @@
+@media screen {
+	input{
+	text-align:right;
+	width:100%;
+	}
+	.box{
+		position: absolute;
+		top: 23%;
+		left: 39%;
+	}
+	
+	h3 ,h1{
+		text-align:center;
+		margin:2px;
+	}
+	table{
+	width:100%;
+	}
+
+	.radio{
+	margin: auto;
+	width:100%;
+	}
+	label,button{
+	text-align:center;
+	margin-top:15px;
+	margin-bottom:15px;
+	font-size:15px;
+	width:100%;
+	display: block;
+	}
+}
+@media screen and (max-width: 600px) {
+	input{
+	text-align:right;
+	width:100%;
+	}
+	h3 ,h1{
+		text-align:center;
+		margin:2px;
+	}
+	table{
+	width:100%;
+	}
+	.box{
+	width:100%;
+	position:absolute;
+	top:1%;
+	left:0%;
+	}
+	.radio{
+	margin: auto;
+	width:100%;
+	}
+	label,button{
+	text-align:center;
+	margin-top:15px;
+	margin-bottom:15px;
+	font-size:15px;
+	width:100%;
+	display: block;
+	}
+}

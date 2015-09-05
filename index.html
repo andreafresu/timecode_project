@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+    <title>Timecode adder</title>
+
+      
+
+	<script type="text/javascript" src="controller.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+	<link href="w3.css" rel="stylesheet" type="text/css" />
+
+
+
+</head>
+
+<body>
+<div class="box w3-card-2">
+	<table>
+			<tr>
+				<td><h3 class="w3-light-grey">24 fps</h3></td>
+				<td><h3 class="w3-light-grey">25 fps</h3></td>
+				<td><h3 class="w3-light-grey">30 fps</h3></td>
+			</tr>
+			<tr>
+				<td><input type="radio" class="radio" name="selectframes" id="f24" checked value=24 onchange="add();"></td>
+				<td><input type="radio" class="radio" name="selectframes" id="f25"  value=25 onchange="add();"></td>
+				<td><input type="radio" class="radio" name="selectframes" id="f30" value=30 onchange="add();"></td>
+			</tr>
+		<table>
+
+	<div class="time_data">
+			<table>
+				<tr>
+					<td><h3 class="w3-light-grey">h</h3></td>
+					<td><h3 class="w3-light-grey">m</h3></td>
+					<td><h3 class="w3-light-grey">s</h3></td>
+					<td><h3 class="w3-light-grey">f</h3></td> 
+				</tr>
+				<tr>
+				 <td><input class="w3-card-2" type="number" id="h1"  min="0" max="24" step="1" value=0 onchange="add();"></td>
+				 <td><input class="w3-card-2" type="number" id="m1"  min="0" max="60" step="1" value=0 onchange="add();"></td>
+				 <td><input class="w3-card-2" type="number" id="s1"  min="0" max="60" step="1" value=0 onchange="add();"></td>
+				 <td><input class="w3-card-2" type="number" id="f1"  min="0" max="25" step="1" value=0 onchange="add();"></td>
+				 </tr>
+			<table>
+	</div>
+	<h1>+</h1>
+	<div class="time_data">
+				<table>
+				<tr>
+				 <td><input class="w3-card-2" type="number" id="h2"  min="0" max="24" step="1"/ value=0 onchange="add();"></td>
+				 <td><input class="w3-card-2" type="number" id="m2"  min="0" max="60" step="1" value=0 onchange="add();"></td>
+				 <td><input class="w3-card-2" type="number" id="s2"  min="0" max="60" step="1" value=0 onchange="add();"></td>
+				 <td><input class="w3-card-2" type="number" id="f2"  min="0" max="25" step="1" value=0 onchange="add();"></td>
+				 </tr>
+			<table>
+	</div>
+	<label id="result" class="w3-card-4 w3-green"> 0:0:0:0</label>
+	<button class="w3-btn w3-red" onclick="clearData();"> Clear</button>
+
+<div>
+    
+   
+
+    
+</body>
+
+
+
+</html>
