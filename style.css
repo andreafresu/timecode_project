@@ -3,20 +3,32 @@
 	text-align:right;
 	width:100%;
 	}
+	.top-input{
+		font-size: 25px;
+	}
+	.bot-input{
+		font-size: 25px;
+	}
 	.box{
 		position: absolute;
 		top: 23%;
 		left: 39%;
 	}
 	
-	h3 ,h1{
+	h3{
 		text-align:center;
 		margin:2px;
+	}
+	h1{
+	   text-align:center;
+	   font-size: 15px;
 	}
 	table{
 	width:100%;
 	}
-
+	.add-button{
+	font-size:25px;
+	}
 	.radio{
 	margin: auto;
 	width:100%;
@@ -29,13 +41,16 @@
 	width:100%;
 	display: block;
 	}
+	label{
+	font-size:25px;
+	}
 }
 @media screen and (max-width: 600px) {
 	input{
 	text-align:right;
 	width:100%;
 	}
-	h3 ,h1{
+	h3{
 		text-align:center;
 		margin:2px;
 	}
@@ -59,5 +74,12 @@
 	font-size:15px;
 	width:100%;
 	display: block;
+	}
+	h1{
+	   text-align:center;
+	   font-size: 15px;
+	}
+	label{
+	font-size:25px;
 	}
 }
